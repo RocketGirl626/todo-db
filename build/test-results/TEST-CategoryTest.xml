@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CategoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-07-29T22:16:56" hostname="Michaels-MacBook-Pro-2.local" time="0.399">
+  <properties/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="CategoryTest" time="0.262"/>
+  <testcase name="all_emptyAtFirst" classname="CategoryTest" time="0.063"/>
+  <testcase name="find_findCategoryInDatabase_true" classname="CategoryTest" time="0.047"/>
+  <testcase name="save_savesIntoDatabase_true" classname="CategoryTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
