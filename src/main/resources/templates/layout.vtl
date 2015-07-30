@@ -6,7 +6,39 @@
     <link rel='stylesheet' href='/app.css'>
   </head>
   <body>
+
     <div class="container">
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jeanette Fairless & Audrie Talbot | Java Portfolio</a>
+          </div>
+
+    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li class="active"><li><%= link_to "Jeanette's Blog", posts_path %></li>
+        <li><%= link_to "References", posts_path %></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <% if !user_signed_in? %>
+
+        <li><%= link_to "Sign Up", new_user_registration_path %></a></li>
+        <li><%= link_to "Sign In",  new_user_session_path %></a></li>
+         <% else %>
+         <li><%= link_to "Logged in as: #{current_user.email}", '/'  %></li>
+        <li class="session-info"><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+        <% end %>
+      </ul>
+    </div> -->
+  </div>
+</nav>
 
       #parse( $template )
 
